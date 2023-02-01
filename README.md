@@ -43,6 +43,7 @@ Provide a basic template for quickly setup development environment and deploy.
 - [lint-staged](https://github.com/okonet/lint-staged)
 - [husky](https://typicode.github.io/husky/#/?id=features)
 - [commitlint](https://commitlint.js.org/#/)
+- [ci (github workflows)](https://docs.github.com/en/actions/using-workflows)
 
 ---
 
@@ -84,13 +85,13 @@ Provide a basic template for quickly setup development environment and deploy.
 
 - Basic deploy:
 
-  ```
+  ```sh
   yarn build
   ```
 
 - With docker and also docker compose:
 
-  ```
+  ```sh
   docker compose up -d --build
   ```
 
